@@ -18,7 +18,7 @@ class Author
       'SELECT articles.id, articles.title, articles.author_id, articles.magazine_id
       FROM articles
       WHERE articles.author_id ='
-    #   to be revisited
+    #   Returns an array of Article instances the author has written
     end
   
     def magazines

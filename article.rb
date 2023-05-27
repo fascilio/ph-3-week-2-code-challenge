@@ -22,12 +22,11 @@ class Article
     end
   
     def self.all
-      query = <<-SQL
-        SELECT articles.title, authors.name AS author_name, magazines.name AS magazine_name, magazines.category
+      ' SELECT articles.title, authors.name AS author_name, magazines.name AS magazine_name, magazines.category
         FROM articles
         JOIN authors ON articles.author_id = authors.id
-        JOIN magazines ON articles.magazine_id = magazines.id
-      SQL
+        JOIN magazines ON articles.magazine_id = magazines.id'
+      
   
       results = execute_query(query)
       results.map do |row|
