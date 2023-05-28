@@ -1,3 +1,5 @@
+require 'sqlite3'
+
 class Magazine
   attr_reader :name, :category
 
