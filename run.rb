@@ -27,6 +27,21 @@ puts magazine1.article_titles
 puts "Contributing authors for #{magazine1.name}:"
 puts magazine1.contributing_authors.map(&:name)
 
+puts "Author name: #{author2.name}"
+puts "Articles by #{author2.name}:"
+puts author2.articles.map(&:title)
+puts "Magazines for #{author2.name}:"
+puts author2.magazines.map(&:name)
+puts "Topic areas for #{author2.name}:"
+puts author2.topic_areas
+
+puts "Magazine name: #{magazine2.name}"
+puts "Contributors for #{magazine2.name}:"
+puts magazine2.contributors.map(&:name)
+puts "Article titles for #{magazine2.name}:"
+puts magazine2.article_titles
+puts "Contributing authors for #{magazine2.name}:"
+puts magazine2.contributing_authors.map(&:name)
 
 # author1 = Author.new('Charlies Byse')
 # author2 = Author.new('Garfield Lynn')
