@@ -1,0 +1,9 @@
+Magazine managing program
+
+DESCRIPTION: This program is a simple database system for managing articles, authors, and magazines. It allows you to
+perform various operations such as retrieving information, adding articles, and finding contributors 
+based on the provided data.
+
+AUTHOR: Samuel Karanja 
+
+[use under the MIT License](http://www.opensource.org/licenses)
